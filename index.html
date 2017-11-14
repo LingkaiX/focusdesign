@@ -2,6 +2,8 @@
 <html lang="zh-cmn-Hans">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -13,17 +15,17 @@
     </head>
     <body>
         <header class="header">
-            <nav>
+            <nav class="sticky">
                 <div class="row">
                     <img src="resources/img/Logo-SignLeft-wHITE.png" alt="Focus Design logo" class="logo">
-                    
-                    <ul class="main-nav">
+                    <img src="resources/img/Logo-SignLeft.png" alt="Focus Design logo" class="logo-black">
+                    <ul class="main-nav js-main-nav">
                         <li><a href="#services">服务项目</a></li>
                         <li><a href="#about">选择我们</a></li>
                         <li><a href="#clients">最新案例</a></li>
                         <li><a href="#contact">联系我们</a></li>
                     </ul>
-                    
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             <div class="home-text-box">
@@ -35,7 +37,7 @@
             </div>
         </header>
         
-        <section class="container section-services" id="services">
+        <section class="container section-services js--section-services" id="services">
             <div class="row">
                 <h2>服务项目</h2>
             </div>
@@ -126,60 +128,77 @@
             </section>
         </div>
         
-        <section class="new-case" id="clients">
+        <section class="container new-case" id="clients">
             <div class="row">
                     <h2>最新案例</h2>
-                </div>
+            </div>
             <ul class="design-showcase">
                 <li>
                     <figure class="case-photo">
-                        <img src="resources/img/1.PNG">
+                        <img src="resources/img/1.jpg">
                     </figure>
                 </li>
                 <li>
                     <figure class="case-photo">
-                        <img src="resources/img/2.PNG">
+                        <img src="resources/img/2.jpg">
                     </figure>
                 </li>
                 <li>
                     <figure class="case-photo">
-                        <img src="resources/img/3.PNG">
+                        <img src="resources/img/3.jpg">
                     </figure>
                 </li>
                 <li>
                     <figure class="case-photo">
-                        <img src="resources/img/4.PNG">
+                        <img src="resources/img/4.jpg">
                     </figure>
-                </li>
+                </li>  
             </ul>
         </section>
+        
+        <div class="contact-us-info">
+        <section class="container contact-us" id="contact">
+            <div class="row">
+                <h2>联系我们</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 contact-info">
+                    <h3><i class="ion-ios-email icon-info"></i>邮箱</h3>
+                    <p>
+                     info@focusdesign.online   
+                    </p>
+                </div>
+                <div class="col-md-4 contact-info">
+                    <h3><i class="ion-ios-location icon-info"></i>地址</h3>
+                    <p>
+                     4/48 Rutland Road, Box Hill, Vic 3128   
+                    </p>
+                </div>
+                <div class="col-md-4 contact-info">
+                    <h3><i class="ion-ios-telephone icon-info"></i>电话</h3>
+                    <p>
+                     (03) 9899 9571   
+                    </p>
+                </div>
+            </div>   
+        </section>
+        </div>
+        
+        <footer>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2017 by Focus Design. All rights reserved.
+                </p>
+            </div>
+        </footer>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
     </body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     

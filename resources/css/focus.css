@@ -95,11 +95,13 @@ h2:after {
     color: #00A651;
     margin-bottom: 10px;
 }
-.why-icon {
-    font-size: 150%;
+.why-icon,
+.icon-info {
+    font-size: 120%;
     padding-right: 20px;
     color: #00A651;
 }
+
 /* ------------ PARAGRAPHS ------------------*/
 .box p {
     font-size: 90%;
@@ -156,7 +158,13 @@ a:active {
     float: left;
     margin-top: 40px;
 }
-
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
 /* main navi */
 
 .main-nav {
@@ -187,7 +195,40 @@ a:active {
 .main-nav li a:active {
     border-bottom: 2px solid #00A651;
 }
+/* mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
 
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+/*sticky navi */
+.sticky {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav {margin-top: 18px;}
+
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo {display: none;}
+.sticky .logo-black {display:block;}
 /* -------------------------------------------------------------*/
 /* SERVICES */
 /* -------------------------------------------------------------*/
@@ -214,7 +255,9 @@ a:active {
 .new-case {
     padding: 0;
 }
-
+.new-case h2 {
+    margin-top: 50px;
+}
 .design-showcase {
     list-style: none;
     width: 100%;
@@ -223,7 +266,7 @@ a:active {
 .design-showcase li {
     display: block;
     float: left;
-    width: 25%;
+    width: 50%;
 }
 
 .case-photo {
@@ -251,3 +294,25 @@ a:active {
     transform: scale(1.03);
 }
 
+/* -------------------------------------------------------------*/
+/* CONTACT US */
+/* -------------------------------------------------------------*/
+.form-group {
+    padding-left: -15px;
+}
+.contact-us-info {
+    background-color: #f4f4f4;
+}
+/* -------------------------------------------------------------*/
+/* FOOTER */
+/* -------------------------------------------------------------*/
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
