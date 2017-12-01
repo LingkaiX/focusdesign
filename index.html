@@ -21,7 +21,8 @@
                     <img src="resources/img/Logo-SignLeft.png" alt="Focus Design logo" class="logo-black">
                     <ul class="main-nav js-main-nav">
                         <li><a href="#services">服务项目</a></li>
-                        <li><a href="#about">选择我们</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#whyus">选择我们</a></li>
                         <li><a href="#clients">最新案例</a></li>
                         <li><a href="#contact">联系我们</a></li>
                     </ul>
@@ -31,9 +32,6 @@
             <div class="home-text-box">
                 <h1 class="focus">Focus</h1><h1 class="design">Design</h1>
                 <h1>专业制作 专注于你</h1>
-                <p>
-                    Focus Design拥有精锐的专业设计开发团队，专注于网页开发及平面设计。我们积极进取，一丝不苟，为您提供最真诚专业的服务，协助每一位客户创造最大的品牌价值。拥有本地10余年媒体工作经验，精准澳洲市场选择。
-                </p>
             </div>
         </header>
         
@@ -76,8 +74,19 @@
             </div>
         </section>
         
+        <section class="about-us" id="about">
+            <div class="row">
+                <h2>关于我们</h2>
+            </div>
+            <div class="row">
+                <p class="about-us-content">
+                    Focus Design拥有精锐的专业设计开发团队，专注于网页开发及平面设计。<br>我们积极进取，一丝不苟，为您提供最真诚专业的服务，协助每一位客户创造最大的品牌价值。拥有本地10余年媒体工作经验，精准澳洲市场选择。
+                </p>
+            </div>
+        </section>
+        
         <div class="why-us">
-            <section class="container reason-choose" id="about">
+            <section class="container reason-choose" id="whyus">
                 <div class="row">
                     <h2>为什么选择我们</h2>
                 </div>
@@ -133,33 +142,82 @@
                     <h2>最新案例</h2>
             </div>
             
-            <div class="case-show">
-                <ul class="list"> 
-                     <li><img src="./resources/img/1.jpg" style="width:538px;height:405px;"><p></p></li>
-                     <li><img src="./resources/img/2.jpg" style="width:538px;height:405px;"><p></p></li>
-                     <li><img src="./resources/img/3.jpg" style="width:538px;height:405px;"><p></p></li>
-                     <li><img src="./resources/img/4.jpg" style="width:538px;height:405px;"><p></p></li>
-               </ul>
+            <div class="col-md-6 case-show">
+               <a class="caseshow-link" href="https://vimeo.com/227008806" target="_blank">
+                    <div class="caseshow-hover">
+                        <div>
+                            <i class="ion-play"></i>
+                        </div>
+                    </div>
+                    <img width="1920" height="1080" src="resources/img/1.jpg" class="img-responsive" sizes="(max-width:1920px) 100vw, 1920px">
+               </a>
+               <div class="caseshow-caption">
+                   <h4>东京日本料理店</h4>
+                   <p class="text-muted">Cinema Commercial</p>
+                </div>
             </div>
+            
+            <div class="col-md-6 case-show">
+               <a class="caseshow-link" href="https://vimeo.com/160316926" target="_blank">
+                    <div class="caseshow-hover">
+                        <div>
+                            <i class="ion-play"></i>
+                        </div>
+                    </div>
+                    <img width="1920" height="1080" src="resources/img/2.jpg" class="img-responsive" sizes="(max-width:1920px) 100vw, 1920px">
+               </a>
+               <div class="caseshow-caption">
+                   <h4>食为先</h4>
+                   <p class="text-muted">Corporate Video</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 case-show">
+               <a class="caseshow-link" href="https://auads.com.au/" target="_blank">
+                    <div class="caseshow-hover">
+                        <div class="caseshow-hover-content">
+                            <p>点击查看</p>
+                        </div>
+                    </div>
+                    <img width="1920" height="1080" src="resources/img/3.jpg" class="img-responsive" sizes="(max-width:1920px) 100vw, 1920px">
+               </a>
+               <div class="caseshow-caption">
+                   <h4>分类大全</h4>
+                   <p class="text-muted">Service Website</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 case-show">
+               <a class="caseshow-link" href="http://www.acustruct.com.au/Chinese/index.html" target="_blank">
+                    <div class="caseshow-hover">
+                        <div class="caseshow-hover-content">
+                            <p>点击查看</p>
+                        </div>
+                    </div>
+                    <img width="1920" height="1080" src="resources/img/4.jpg" class="img-responsive" sizes="(max-width:1920px) 100vw, 1920px">
+               </a>
+               <div class="caseshow-caption">
+                   <h4>Acustruct 地产</h4>
+                   <p class="text-muted">Landing Page</p>
+                </div>
+            </div>     
         </section>
         
         <footer>
-            <div class="row" id="contact">
-                <h4>联系我们</h4>
-            </div>
             <div class="row">
-                <div class="col-md-4 contact-info">
-                    <p><i class="ion-ios-email icon-info"></i>邮箱 &nbsp info@focusdesign.online</p>
-                </div>
-                <div class="col-md-4 contact-info">
-                    <p>
-                        <i class="ion-ios-location icon-info"></i>地址 &nbsp 4/48 Rutland Road, Box Hill, Vic 3128
+                <div class="col-md-6 contact-info" id="contact">
+                    <p class="contact-us-info">
+                        <span>(03) 9899 9571 | info@focusdesign.online</span><br>
+                        <span>4/48 Rutland Road, Box Hill, VIC 3128</span>
                     </p>
                 </div>
-                <div class="col-md-4 contact-info">
-                    <p>
-                     <i class="ion-ios-telephone icon-info"></i>电话 &nbsp (03) 9899 9571   
-                    </p>
+                <div class="col-md-6">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
