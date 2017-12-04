@@ -467,4 +467,8 @@ footer .contact-info p {
     .caseshow-hover-content {
         margin: 100px 145px;
     }
+    .social-links {
+        float: none;
+        text-align: center;
+    }
 }
