@@ -285,21 +285,34 @@ a:active {
 }
 .caseshow-hover-content {
     color: #fff;
-    margin: 150px 220px;
     font-weight: bold;
+    position: relative;
+    height: 100%;
+}
+.caseshow-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
 }
+.client-ion-play {
+    position: relative;
+    height: 100%;
+}
 .ion-play {
     font-size: 4em;
     color: #fff;
-    display: inline-block;
     font-weight: normal;
     line-height: 1;
-    margin: 100px 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .caseshow-caption {
     margin:0 auto;
@@ -401,21 +414,11 @@ footer .contact-info p {
     h1 {
         margin-left: 80px;
     }
-    .ion-play {
-        margin: 80px 200px;
-    }
-    .caseshow-hover-content {
-        margin: 130px 180px;
-    }
+    
 }
     /* Small tablets to big tablets: from 768px to 1023px */
     @media only screen and (max-width: 1023px){
-    .ion-play {
-        margin: 135px 265px;
-    }
-    .caseshow-hover-content {
-        margin: 180px 250px;
-    }
+    
 }
 /* Small phones to small tablets: from 481 to 767px */
 @media only screen and (max-width: 767px){
@@ -460,12 +463,6 @@ footer .contact-info p {
     h1 {margin-left: 5px;}
     .about-us-content {
         font-size: 90%;
-    }
-    .ion-play {
-    margin: 60px 165px;
-    }
-    .caseshow-hover-content {
-        margin: 100px 145px;
     }
     .social-links {
         float: none;
