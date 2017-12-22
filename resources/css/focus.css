@@ -464,8 +464,8 @@ footer .contact-info p {
         margin-left: 20px;
         font-size: 190%;
     }
-    h1 .focus {font-size: 300%;}
-    h1 .design {
+    .focus {font-size: 300%;}
+    .design {
         font-size: 150%;
         margin-top: -30px;
     }
