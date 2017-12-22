@@ -150,7 +150,7 @@ a:active {
     transform: translate(-50%,-50%);
 }
 .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 40px;
@@ -460,7 +460,15 @@ footer .contact-info p {
 /* Small phones: from 0 t0 480px */
 @media only screen and (max-width: 480px) {
     h2 { font-size: 130%; }
-    h1 {margin-left: 5px;}
+    h1 {
+        margin-left: 20px;
+        font-size: 190%;
+    }
+    h1 .focus {font-size: 300%;}
+    h1 .design {
+        font-size: 150%;
+        margin-top: -30px;
+    }
     .about-us-content {
         font-size: 90%;
     }
